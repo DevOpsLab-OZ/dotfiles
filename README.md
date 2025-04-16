@@ -73,6 +73,23 @@ VS Code의 사용자 설정 파일로, 편집기 동작과 인터페이스를 �
 - 테마 및 색상 설정
 - 코드 포맷팅 옵션
 
+## dev-setup 통합
+
+이 저장소는 주로 [dev-setup](https://github.com/DevOpsLab-OZ/dev-setup) 프로젝트의 일부로 사용됩니다:
+
+- 더 완벽한 개발 환경 구성을 위해 dev-setup 프로젝트를 사용하는 것을 권장합니다.
+- dev-setup은 이 저장소를 자동으로 설치하고 구성합니다.
+
+### 단독 사용
+
+이 저장소를 단독으로 사용할 수도 있습니다:
+
+```bash
+git clone https://github.com/DevOpsLab-OZ/dotfiles.git
+cd dotfiles
+./install.sh
+```
+
 ## 다른 시스템에 적용하기
 
 새 시스템에서 동일한 설정을 사용하려면:
